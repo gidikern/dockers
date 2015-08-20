@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhel:latest
+FROM registry.access.redhat.com/rhel7.1
 
 MAINTAINER Gidi Kern <gidikern@gmail.com>
 
