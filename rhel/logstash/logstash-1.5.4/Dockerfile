@@ -4,7 +4,7 @@ MAINTAINER gidikern <gidikern@gmail.com>
 
 ADD rsyslog.repo /etc/yum.repos.d/
 
-yum install -y rsyslog
+RUN yum install -y rsyslog
 
 # Install logstash
 RUN rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch
