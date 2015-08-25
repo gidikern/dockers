@@ -2,9 +2,6 @@ FROM gidikern/rhel-oracle-jre:1.8.0
 
 MAINTAINER gidikern <gidikern@gmail.com>
 
-
-RUN yum yum-config-manager --disablerepo=*
-
 ADD rsyslog.repo /etc/yum.repos.d/
 
 RUN yum install -y rsyslog
